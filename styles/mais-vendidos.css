@@ -1,0 +1,95 @@
+.mais-vendidos {
+    background-color: var(--cor-de-fundo-cinza);
+}
+
+.mais-vendidos__titulo {
+    padding: 1em 0 0.5em;
+    text-transform: uppercase;
+    color: var(--cor-laranja);
+    background-color: var(--cor-branco);
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--cor-cinza);
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--cor-azul-degrade);
+}
+
+.card {
+    margin: 1.5em 1em;
+    background-color: var(--cor-branco);
+    border-radius: 10px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.descricao__estrelinhas {
+    display: flex;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.descricao__titulo {
+    font-weight: 700;
+    color: var(--cor-laranja);
+}
+
+.descricao__titulo--livro {
+    font-size: 1.125em;
+    color: var(--cor-azul);
+    font-weight: 700;
+}
+
+.card__imagem {
+    text-align: center;
+}
+
+.card__icones {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.card__icones img {
+    width: 30hpx;
+    height: 30hpx;
+}
+
+.card__botao {
+    text-align: center;
+}
+
+.card__botao__link {
+    background-color: var(--cor-laranja);
+    color: var(--cor-branco);
+    text-decoration: none;
+    width: 130px;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 16px;
+}

@@ -1,0 +1,30 @@
+.visitados {
+    background: var(--cor-azul-degrade);
+    padding: 1.5rem 1rem;
+}
+
+.visitados__titulo {
+    color: var(--cor-branco);
+    font-weight: 300;
+    text-align: center;
+    margin: 0 0 1.5rem;
+}
+
+.visitados__lista {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.visitados__item {
+    background-color: var(--cor-laranja);
+    padding: 1rem 1.5rem;
+}
+
+.visitados__link {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--cor-branco);
+    text-decoration: none;
+}
