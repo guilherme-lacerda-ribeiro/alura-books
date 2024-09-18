@@ -53,3 +53,13 @@
     }
 
 }
+
+@media screen and (min-width: 1728px) {
+    .mailing {
+        padding: 4rem 25vw;
+    }
+
+    .mailing__email {
+        font-size: 1rem;
+    }
+}

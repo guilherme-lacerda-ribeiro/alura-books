@@ -144,3 +144,37 @@
         margin: 0 auto 3rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .ultimos__conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        padding: 1rem 0 4rem;
+    }
+
+    .swiper {
+        margin: 0;
+    }
+    .card {
+        margin: auto 0 2rem;
+    }
+
+    .swiper-wrapper {
+        padding: 1rem 0 0 2rem;
+    }
+
+    .card {
+        grid-template-columns: 2fr 1fr;
+        height: 250px;
+    }
+
+    .descricao {
+        gap: 1rem;
+    }
+    .descricao__titulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}

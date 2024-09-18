@@ -28,11 +28,6 @@
     display: flex;
 }
 
-.descricao {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-}
 .descricao__titulo {
     font-weight: 700;
     color: var(--cor-laranja);
