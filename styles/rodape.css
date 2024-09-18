@@ -44,4 +44,17 @@
     .rodape__comunidade {
         display: block;
     }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        justify-content: space-evenly;
+        padding: 3rem 0;
+    }
+
+    .rodape--borda {
+        border-left: solid 1px var(--cor-cinza-escuro);
+        padding-left: 2rem;
+    }
 }
