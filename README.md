@@ -1,4 +1,4 @@
-# Estudo de Caso - Alura Books
+# Estudo de Caso - [Alura Books](https://guilherme-lacerda-ribeiro.github.io/alura-books/)
 Treinamento realizado na Alura com o estudo de caso do Alura Books, um site responsivo de venda de livros online.
 
 Apesar do treinamento propor uma forma de codificar, utilizei dos conhecimentos prévios para melhorar e gerar uma versão de código mais coerente na minha perspectiva.
