@@ -42,6 +42,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 600px;
 }
 
 .descricao {
@@ -49,6 +50,7 @@
     flex-direction: column;
     gap: 0.5em;
 }
+
 .descricao__titulo {
     font-weight: 700;
     color: var(--cor-laranja);
@@ -88,4 +90,57 @@
     font-weight: 700;
     text-align: center;
     padding: 12px 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .ultimos__titulo {
+        padding: 2rem 0 1rem;
+        font-size: 1.625rem;
+    }
+
+    .swiper {
+        max-width: 800px;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 1rem;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 55%;
+        background: var(--cor-azul-degrade);
+        border-radius: 25px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        color: var(--cor-branco);
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 0.5rem;
+        line-height: 50px;
+    }
+
+    .swiper-button-next:after {
+        content: 'next';
+    }
+
+    .swiper-button-prev:after {
+        content: 'prev';
+    }
+
+    .swiper-wrapper {
+        padding: 3rem 0;
+    }
+
+    .swipper_imagem {
+        max-width: 200px;
+    }
+
+    .card {
+        max-width: 600px;
+        margin: 0 auto 3rem;
+    }
 }

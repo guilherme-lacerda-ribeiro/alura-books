@@ -30,3 +30,26 @@
     background-size: contain;
     color: var(--cor-azul);
 }
+
+@media screen and (min-width: 1024px) {
+    .mailing {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 8rem;
+    }
+
+    .mailing__descricao {
+        width: 40%;
+    }
+
+    .mailing__titulo {
+        font-size: 1.5em;
+    }
+
+    .mailing__email {
+        width: 40%;
+        height: 1.5rem;
+        margin: auto;
+    }
+
+}

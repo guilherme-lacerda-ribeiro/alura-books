@@ -2,3 +2,46 @@
     border-top: solid 1px var(--cor-cinza-escuro);
     padding: 1.5rem 1rem;
 }
+
+.rodape__educacao,
+.rodape__educacao-online,
+.rodape__comunidade {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--cor-branco);
+    }
+
+    .rodape__texto {
+        font-size: 1.5rem;
+    }
+
+    .rodape__titulo {
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        color: var(--cor-cinza-rodape-titulo);
+    }
+
+    .rodape__item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    .rodape__link {
+        text-decoration: none;
+        font-size: 0.875rem;
+        color: var(--cor-cinza-rodape-link);
+    }
+
+    .rodape__educacao,
+    .rodape__educacao-online,
+    .rodape__comunidade {
+        display: block;
+    }
+}

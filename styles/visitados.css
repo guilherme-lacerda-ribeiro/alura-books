@@ -28,3 +28,16 @@
     color: var(--cor-branco);
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .visitados {
+        padding: 2rem 5rem;
+    }
+    .visitados__titulo {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .visitados__link {
+        font-size: 1.5rem;
+    }
+}
